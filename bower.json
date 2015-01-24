@@ -1,0 +1,21 @@
+{
+  "name": "addtocalendar",
+  "version": "1.5.0",
+  "authors": [
+    "support@addtocalendar.com"
+  ],
+  "description": "Free customizable widget \"Add to Calendar\" for event page. It allows users to easily schedule the event in their calendar.",
+  "main": "atc.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "calendar",
+    "widget",
+	"button",
+    "event",
+	"schedule"
+  ],
+  "license": "MIT",
+  "homepage": "http://addtocalendar.com"
+} 
