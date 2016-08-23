@@ -1,6 +1,6 @@
 {
   "name": "addtocalendar-bower-package",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Free customizable widget \\\"Add to Calendar\\\" for event page. It allows users to easily schedule the event in their calendar.",
   "main": "atc.min.js",
   "scripts": {
@@ -9,6 +9,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AddToCalendar/addtocalendar-bower-package.git"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "2.0",
+    "pump": "^1.0.1"
   },
   "keywords": [
     "calendar",
