@@ -194,7 +194,7 @@
         for (var tagnum = 0; tagnum < dom.length; tagnum++) {
             var tag_class = dom[tagnum].className;
 
-            if (tag_class.length && tag_class.split(" ").indexOf('addtocalendar') != -1) {
+            if (tag_class && tag_class.length && tag_class.split(" ").indexOf('addtocalendar') != -1) {
 
                 var settings = addtocalendar.loadSettings(dom[tagnum]);
 
@@ -269,7 +269,7 @@
 						+ (cal_id=='ical' && /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream ? 'webcal:' : protocol)
 						+ atc_url
 						+ cal_id + '?' + url_paramteres.join('&')
-						+ '" target="_blank">' + settings['calendars'][cnum] + '</a></li>';
+						+ '" target="_blank" rel="nofollow">' + settings['calendars'][cnum] + '</a></li>';
                 }
                 atcb_list.innerHTML = menu_links;
 
