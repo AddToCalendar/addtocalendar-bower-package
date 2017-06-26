@@ -1,6 +1,6 @@
 {
   "name": "addtocalendar",
-  "version": "1.5.3",
+  "version": "1.5.5",
   "authors": [
     "support@addtocalendar.com"
   ],
@@ -17,5 +17,5 @@
 	"schedule"
   ],
   "license": "MIT",
-  "homepage": "http://addtocalendar.com"
+  "homepage": "https://addtocalendar.com"
 } 

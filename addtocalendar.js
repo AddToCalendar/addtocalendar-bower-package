@@ -1,7 +1,7 @@
 (function (w, d) {
     var
         atc_url = '//addtocalendar.com/atc/',
-        atc_version = '1.5';
+        atc_version = '1.5.5';
 
 
     if (!Array.indexOf) {
